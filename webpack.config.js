@@ -10,13 +10,13 @@ const config = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.js[x]?$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['env'],
-                        plugins: ['transform-class-properties']
+                        presets: ['react','env'],
+                        plugins: ['transform-decorators-legacy', 'transform-class-properties']
                     }
                 }
             }
