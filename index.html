@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style type="text/css">
+      .input {
+          padding: 15px;
+          border: 1px solid #ccc;
+          font-size: 24px;
+          width: 400px
+      }
+      .todo-item {
+          display: flex;
+          align-items: center;
+          height: 40px;
+          border-bottom: 1px solid #ccc;
+      }
+      .todo-item .toggle {
+          margin-right: 20px;
+      }
+      .todo-item .title {
+          font-size: 24px
+      }
+      .todo-item .title.finished{
+         color: grey;
+         text-decoration: line-through
+      }
+      .todo-item .delete {
+          cursor: pointer;
+          margin-left: 20px;
+
+      }
+    </style>
 </head>
 <body>
     <div id="xx"></div>

@@ -334,3 +334,6 @@ import React from 'react';
 const store = new Store();
 
 ReactDOM.render(<Foo cache={store.cache} refresh={store.refresh} />, document.getElementById('xx'))
+
+// =================
+
